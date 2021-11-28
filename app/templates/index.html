@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Smotri na myach - Home</title>
-</head>
-<body>
-  <div>
-      <h1>Hello</h1>
-  </div>
-</body>
-</html>
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block title %}Smotri na myach - Home{% endblock %}
+
+{% block page_content %}
+<div class="container">
+    <h1 class="h1">Home page</h1>
+</div>
+{% endblock %}
